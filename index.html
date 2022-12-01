@@ -5,6 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Visual Studio Code - Code Editing. Redefined</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body>
+    <header class="flex items-center bg-[#2C2C32]">
+      <section class="flex justify-around w-full font-normal w-[83%] m-auto">
+        <section class="flex gap-4 cursor-pointer">
+          <!-- Logo -->
+          <div class="flex items-center gap-4">
+            <img
+              class="h-6 w-6"
+              src="./assets/logo.png"
+              alt="Visual Studio Code Logo"
+            />
+            <span class="text-[20px] text-white">Visual Studio Code</span>
+          </div>
+          <!-- Nav Bar -->
+          <nav>
+            <ul class="flex">
+              <li
+                class="text-[16px] pt-[17px] pb-[13px] px-[12px] text-slate-400 hover:text-white"
+              >
+                Docs
+              </li>
+              <li
+                class="text-[16px] pt-[17px] pb-[13px] px-[12px] text-slate-400 hover:text-white"
+              >
+                Updates
+              </li>
+              <li
+                class="text-[16px] pt-[17px] pb-[13px] px-[12px] text-slate-400 hover:text-white"
+              >
+                API
+              </li>
+              <li
+                class="text-[16px] pt-[17px] pb-[13px] px-[12px] text-slate-400 hover:text-white"
+              >
+                Blog
+              </li>
+              <li
+                class="text-[16px] pt-[17px] pb-[13px] px-[12px] text-slate-400 hover:text-white"
+              >
+                Extensions
+              </li>
+              <li
+                class="text-[16px] pt-[17px] pb-[13px] px-[12px] text-slate-400 hover:text-white"
+              >
+                FAQ
+              </li>
+              <li
+                class="text-[16px] pt-[17px] pb-[13px] px-[12px] text-slate-400 hover:text-white"
+              >
+                Learn
+              </li>
+            </ul>
+          </nav>
+        </section>
+
+        <!-- Search Bar and Download  -->
+        <section class="flex">
+          <!-- Search Bar  -->
+          <div
+            class="flex items-center pl-3 gap-2 bg-[#515156] hidden lg:flex text-white bg-zinc-600 hover:bg-zinc-700 justify-between gap-px"
+          >
+            <img class="h-[16px] w-[16px]" src="./assets/search.svg" alt="" />
+            <input
+              class="font-semibold w-36 bg-transparent text-sm text-white outline-none"
+              placeholder="Search Docs..."
+              type="search"
+            />
+          </div>
+          <!-- Download Button  -->
+          <a class="flex hidden lg:flex" href="/">
+            <img
+              class="w-[16px] h-[16px]"
+              src="./assets/download.svg"
+              alt="Download VS Code"
+            />
+            <span
+              class="border-none px-8 py-3 text-white m-0 font-semibold bg-[#0066b8] hover:bg-[#005BA4] flex gap-1"
+              >Download</span
+            ></a
+          >
+        </section>
+      </section>
+    </header>
+  </body>
 </html>
