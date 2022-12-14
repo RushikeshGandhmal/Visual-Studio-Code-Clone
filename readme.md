@@ -1,6 +1,6 @@
-## Vs-Code Clone using `Tailwind CSS`
+## Vs-Code Clone using `Tailwind CSS`. (Only for "Educational" purpose)
 
-## `[Live Link](https://visual-studio-code-clone-rushi.netlify.app/)`
+## [`Live Demo`](https://visual-studio-code-clone-rushi.netlify.app/)
 
 ## Output:
 
